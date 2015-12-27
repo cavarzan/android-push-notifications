@@ -8,6 +8,8 @@
 /build
 /captures
 
+*.iml
+
 # Built application files
 *.apk
 *.ap_
