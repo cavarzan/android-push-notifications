@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidPushNotifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_received">Message Received!</string>
+    <string name="receive_push_and_don_t_abort_the_broadcast">Receive Push and <b>don\'t abort</b> the broadcast</string>
+    <string name="start">Start</string>
+    <string name="receive_push_and_abort_the_broadcast" >Receive Push and <b>abort</b> the broadcast</string>
+    <string name="finish_app_and_emit_push">Close app and receive Push in default Receiver</string>
+</resources>
