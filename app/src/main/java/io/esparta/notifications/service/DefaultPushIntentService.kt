@@ -23,8 +23,8 @@ class DefaultPushIntentService : IntentService("DefaultPushIntentService") {
         notification?.let {
             val mBuilder = NotificationCompat.Builder(this)
                     .setSmallIcon(R.mipmap.ic_launcher)
-                    .setContentTitle(notification.title)
-                    .setContentText(notification.message)
+                    .setContentTitle(it.title)
+                    .setContentText(it.message)
                     .setSubText(getString(R.string.app_name))
                     .setAutoCancel(true);
 

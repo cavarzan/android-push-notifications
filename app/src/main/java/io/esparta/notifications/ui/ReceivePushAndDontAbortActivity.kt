@@ -50,7 +50,7 @@ class ReceivePushAndDontAbortActivity : AppCompatActivity(), HasToolbar {
             toast(R.string.message_received)
             val notification = intent.getParcelableExtra<Notification?>(Extras.NOTIFICATION)
             notification?.let {
-                updateView(notification)
+                updateView(it)
             }
         }
     }
